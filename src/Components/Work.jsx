@@ -8,11 +8,13 @@ export default function Work() {
           return (
             <div className="lg:flex my-10 ">
               <div className="max-w-md ">
-                <img
-                  className="rounded-lg w-full object-contain"
-                  src={item.img}
-                  alt="website icon"
-                />
+                <a href={item.link} target="_blank">
+                  <img
+                    className="rounded-lg w-full object-contain"
+                    src={item.img}
+                    alt="website icon"
+                  />
+                </a>
               </div>
               <div className=" sm:ml-4 sm:flex sm:flex-col sm:justify-between">
                 <h3 className="mt-4 text-2xl font-bold ">{item.title}</h3>
