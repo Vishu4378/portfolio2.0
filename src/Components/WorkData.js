@@ -2,8 +2,7 @@ const WorkData = [
     {
         "title": "E-kart",
         "img":
-            "https://cdn.discordapp.com/attachments/1020891798559789078/1021268583260618782/Screenshot_121.png   ", "Discription": "it's an e-commerce site",
-        "type": "React-Tailwind",
+            "        https://cdn.discordapp.com/attachments/1020891798559789078/1021320562955522049/Screenshot_125.png ", "type": "React-Tailwind",
         "time": "E-commerce",
         "Discription": "Here i've creared an e-commerce site , we can select the items and also add to the cart.   ",
         "link": "https://vijay-e-kart.netlify.app/"
